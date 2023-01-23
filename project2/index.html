@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>project2</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <svg viewBox="0 0 72.826 19.422">
+                        <path id="LOGO"
+                            d="M59.865,18.681a8.22,8.22,0,0,1-2.874-2.041A9.043,9.043,0,0,1,55.2,13.585,11.216,11.216,0,0,1,54.574,9.8,11.6,11.6,0,0,1,55.2,5.941a9.28,9.28,0,0,1,1.794-3.107A8.2,8.2,0,0,1,59.865.754a10.159,10.159,0,0,1,7.682,0,8.231,8.231,0,0,1,2.86,2.08A9.265,9.265,0,0,1,72.2,5.941,11.58,11.58,0,0,1,72.826,9.8a11.194,11.194,0,0,1-.625,3.783,9.029,9.029,0,0,1-1.794,3.056,8.25,8.25,0,0,1-2.86,2.041,10.33,10.33,0,0,1-7.682,0Zm-19.734,0a8.217,8.217,0,0,1-2.873-2.041,9.045,9.045,0,0,1-1.795-3.056A11.216,11.216,0,0,1,34.84,9.8a11.6,11.6,0,0,1,.624-3.861,9.282,9.282,0,0,1,1.795-3.107A8.2,8.2,0,0,1,40.131.754,9.368,9.368,0,0,1,43.966,0a9.018,9.018,0,0,1,2.769.429A7.81,7.81,0,0,1,49.153,1.69a6.819,6.819,0,0,1,2.64,4.862h-3.9a3.9,3.9,0,0,0-1.4-2.34,4.08,4.08,0,0,0-2.522-.78,4.764,4.764,0,0,0-2.34.534,4.417,4.417,0,0,0-1.56,1.429,6.27,6.27,0,0,0-.871,2.041A10.174,10.174,0,0,0,38.922,9.8a9.463,9.463,0,0,0,.273,2.275,6.15,6.15,0,0,0,.871,1.989,4.458,4.458,0,0,0,1.56,1.417,4.764,4.764,0,0,0,2.34.534A4.43,4.43,0,0,0,47.1,14.989a4.46,4.46,0,0,0,1.287-2.976H44.278V8.97h7.8V19.006h-2.6L49.062,16.9a6.118,6.118,0,0,1-2.417,1.963,6.844,6.844,0,0,1-2.678.559A9.516,9.516,0,0,1,40.131,18.681Zm-20.228,0A8.225,8.225,0,0,1,17.03,16.64a9.043,9.043,0,0,1-1.794-3.056A11.216,11.216,0,0,1,14.612,9.8a11.6,11.6,0,0,1,.624-3.861A9.28,9.28,0,0,1,17.03,2.834,8.205,8.205,0,0,1,19.9.754,9.373,9.373,0,0,1,23.738,0a9.345,9.345,0,0,1,3.847.754,8.231,8.231,0,0,1,2.86,2.08A9.265,9.265,0,0,1,32.24,5.941,11.6,11.6,0,0,1,32.864,9.8a11.216,11.216,0,0,1-.625,3.783,9.029,9.029,0,0,1-1.794,3.056,8.25,8.25,0,0,1-2.86,2.041,9.493,9.493,0,0,1-3.847.741A9.521,9.521,0,0,1,19.9,18.681ZM0,19.006V.442H4.082V15.574H13.13v3.433Z"
+                            fill="#b57ad2" />
+                    </svg>
+                </div>
+                <ul class="menu ">
+                    <li data-section="home" class="menu__item menu__item--active">
+                        <a href="#" class="menu__link">about</a>
+                    </li>
+
+                    <li data-section="services" class="menu__item">
+                        <a href="#" class="menu__link">Services</a>
+                    </li>
+                    <li data-section="portfolio" class="menu__item">
+                        <a href="#" class="menu__link ">Success Stories</a>
+                    </li>
+                    <li data-section="pricing" class="menu__item">
+                        <a href="#" class="menu__link">Join Us</a>
+                    </li>
+                    <li data-section="contactus" class="menu__item">
+                        <a href="#" class="menu__link menu__link-active">Schedule A Call</a>
+                    </li>
+                </ul>
+                <div class="nav__toggle-icon">
+                    <div class="nav__toggle-line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <img src="images/shape1.jpg" alt="shape" class="home__shape">
+            <div class="container">
+                <div class="row row-revers">
+                    <div class="col-12 col-md-6">
+                        <h1 class="home__title">
+                            need a flexible recrulting solution as you sell and scale projects?
+                        </h1>
+                        <p class="home__caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="app-btn home__btn">read more</a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="home__img-wrapper">
+                            <img src="images/header.jpg" alt="pic" class="home__img">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="app-title"> our services</h2>
+                <p class="app-caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="service">
+                            <div class="service__img-wrapper">
+                                <img src="images/team1.jpg" alt="team" class="service__img">
+                            </div>
+                            <div class="service__txt">
+                                <p class="service__txt-caption">
+                                    Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Hic, eius!
+                                </p>
+                                <ul class="service__list">
+                                    <li class="service__item">hello</li>
+                                    <li class="service__item">hello</li>
+                                    <li class="service__item">hello</li>
+                                </ul>
+                                <a href="#" class="app-btn service__btn">read more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="service">
+                            <div class="service__img-wrapper">
+                                <img src="images/team2.jpg" alt="team" class="service__img">
+                            </div>
+                            <div class="service__txt">
+                                <p class="service__txt-caption">
+                                    Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Hic, eius!
+                                </p>
+                                <ul class="service__list">
+                                    <li class="service__item">hello</li>
+                                    <li class="service__item">hello</li>
+                                    <li class="service__item">hello</li>
+                                </ul>
+                                <a href="#" class="app-btn service__btn">read more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="procress">
+            <div class="container">
+                <h2 class="app-title"> our procress</h2>
+                <p class="app-caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="procress__card">
+                            <div class="procress__card-img-wrapper">
+                                <svg class="procress__card-svg" viewBox="0 0 181.18 200.301">
+                                    <path id="Fill_11" data-name="Fill 11"
+                                        d="M181.18,135.753V64.547A28.948,28.948,0,0,0,166.71,39.48l-61.651-35.6a28.933,28.933,0,0,0-28.938,0L14.47,39.48A28.948,28.948,0,0,0,0,64.547v71.206A28.945,28.945,0,0,0,14.47,160.82l61.651,35.6a28.923,28.923,0,0,0,28.938,0l61.651-35.6a28.945,28.945,0,0,0,14.47-25.067"
+                                        fill="#b57ad2" />
+                                </svg>
+                                <img src="images/pro2.jpg" class="procress__card-img">
+                            </div>
+                            <div class="procress__card-txt">
+                                <h4 class="procress__card-title">
+                                    asdfgh jklgweg gavd
+                                </h4>
+                                <p class="procress__card-caption">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="procress__card">
+                            <div class="procress__card-img-wrapper procress__card-txt-blue">
+                                <svg class="procress__card-svg" viewBox="0 0 181.18 200.301">
+                                    <path id="Fill_11" data-name="Fill 11"
+                                        d="M181.18,135.753V64.547A28.948,28.948,0,0,0,166.71,39.48l-61.651-35.6a28.933,28.933,0,0,0-28.938,0L14.47,39.48A28.948,28.948,0,0,0,0,64.547v71.206A28.945,28.945,0,0,0,14.47,160.82l61.651,35.6a28.923,28.923,0,0,0,28.938,0l61.651-35.6a28.945,28.945,0,0,0,14.47-25.067"
+                                        fill="#3490CF" />
+                                </svg>
+                                <img src="images/pro2.jpg" class="procress__card-img">
+                            </div>
+                            <div class="procress__card-txt procress__card-txt-blue">
+                                <h4 class="procress__card-title">
+                                    asdfgh jklgweg gavd
+                                </h4>
+                                <p class="procress__card-caption">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="procress__card">
+                            <div class="procress__card-img-wrapper">
+                                <svg class="procress__card-svg" viewBox="0 0 181.18 200.301">
+                                    <path id="Fill_11" data-name="Fill 11"
+                                        d="M181.18,135.753V64.547A28.948,28.948,0,0,0,166.71,39.48l-61.651-35.6a28.933,28.933,0,0,0-28.938,0L14.47,39.48A28.948,28.948,0,0,0,0,64.547v71.206A28.945,28.945,0,0,0,14.47,160.82l61.651,35.6a28.923,28.923,0,0,0,28.938,0l61.651-35.6a28.945,28.945,0,0,0,14.47-25.067"
+                                        fill="#b57ad2" />
+                                </svg>
+                                <img src="images/pro2.jpg" class="procress__card-img">
+                            </div>
+                            <div class="procress__card-txt procress__card-txt2">
+                                <h4 class="procress__card-title procress__card-title2">
+                                    asdfgh jklgweg gavd
+                                </h4>
+                                <p class="procress__card-caption procress__card-caption2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ratione iusto repellendus
+                                    id. Numquam, quaerat quibusdam?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secret">
+            <div class="container">
+                <h2 class="app-title"> our secret sauce</h2>
+                <p class="app-caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <div class="secret__card">
+                            <div class="secret__img-keeper">
+                                <img src="images/test1.jpg" alt="test" class="secret__img">
+                            </div>
+                            <div class="secret__txt">
+                                <h4 class="secret__title">
+                                    hello every body
+                                </h4>
+                                <p class="secret__caption">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus temporibus
+                                    velit in? Fugiat officiis maxime omnis excepturi, laudantium vitae porro?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <div class="secret__card">
+                            <div class="secret__img-keeper">
+                                <img src="images/test2.jpg" alt="test" class="secret__img">
+                            </div>
+                            <div class="secret__txt">
+                                <h4 class="secret__title">
+                                    hello every body
+                                </h4>
+                                <p class="secret__caption">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus temporibus
+                                    velit in? Fugiat officiis maxime omnis excepturi, laudantium vitae porro?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-sm-12 ">
+                        <div class="secret__card">
+                            <div class="secret__img-keeper">
+                                <img src="images/test3.jpg" alt="test" class="secret__img">
+                            </div>
+                            <div class="secret__txt">
+                                <h4 class="secret__title">
+                                    hello every body
+                                </h4>
+                                <p class="secret__caption">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus temporibus
+                                    velit in? Fugiat officiis maxime omnis excepturi, laudantium vitae porro?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="app-btn secret__btn">read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="massage">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <div class="massage__img-wrapper">
+                            <img src="images/person1.jpg" alt="img" class="massage__img">
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <div class="massage__txt">
+                            <h2 class="massage__title">
+                                Founder's Massage
+                            </h2>
+                            <p class="massage__caption">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsam maxime iure
+                                obcaecati voluptas soluta amet sapiente ullam hic tempore!
+                            </p>
+                            <span class="massage__span">
+                                john doe <br>
+                                Founder <br>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ut.
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="team__logo-keeper">
+                <img src="images/team-anime.jpg" alt="img" class="team__logo">
+            </div>
+            <div class="container">
+                <h2 class="app-title  team__title"> our team</h2>
+                <p class="app-caption team__caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+                <div class="team__person">
+                    <img src="images/person1.jpg" class="team__person-img">
+                    <h4 class="team__person-title">Lorem ipsum dolor sit Lorem ipsum dolor amet consectetur.</h4>
+                    <span class="team__person-name">maryam</span>
+                </div>
+                <div class="team__person2">
+                    <img src="images/person1.jpg" class="team__person-img">
+                    <h4 class="team__person-title team__person-title2">Lorem ipsum dolor sit Lorem ipsum dolor amet
+                        consectetur.</h4>
+                    <span class="team__person-name">maryam</span>
+                </div>
+                <div class="team__person3">
+                    <img src="images/person1.jpg" class="team__person-img">
+                    <h4 class="team__person-title team__person-title2">Lorem ipsum dolor sit Lorem ipsum dolor amet
+                        consectetur.</h4>
+                    <span class="team__person-name">maryam</span>
+                </div>
+                <div class="team__person4">
+                    <img src="images/person1.jpg" class="team__person-img">
+                    <h4 class="team__person-title team__person-title2">Lorem ipsum dolor sit Lorem ipsum dolor amet
+                        consectetur.</h4>
+                    <span class="team__person-name">maryam</span>
+                </div>
+                <div class="team__person5">
+                    <img src="images/person1.jpg" class="team__person-img">
+                    <h4 class="team__person-title team__person-title2">Lorem ipsum dolor sit Lorem ipsum dolor amet
+                        consectetur.</h4>
+                    <span class="team__person-name">maryam</span>
+                </div>
+
+            </div>
+        </section>
+        <section class="story">
+            <div class="container">
+                <h2 class="app-title"> our Success Stories</h2>
+                <p class="app-caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="row row-revers row-p">
+                    <div class="col-12 col-md-6">
+                        <div class="story__txt">
+                            <span class="story__number">
+                                160
+                            </span>
+                            <p class="story__caption">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, beatae pariatur? Ab
+                                exercitationem aspernatur perspiciatis sapiente suscipit accusantium quas aliquam!
+                            </p>
+                        </div>
+                        <div class="story__txt">
+                            <span class="story__number">
+                                200
+                            </span>
+                            <p class="story__caption">
+                                Lorem ipsum dolor sit amet, consectetur
+                                exercit suscipit accusantium
+                            </p>
+                        </div>
+                        <div class="story__txt">
+                            <span class="story__number">
+                                231
+                            </span>
+                            <p class="story__caption">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, beatae pariatur? Ab
+                                exercitationem aspernatur perspiciatis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="story__img-wrapper">
+                            <img src="images/services.jpg" alt="images" class="story__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="talk">
+            <div class="container">
+                <h2 class="app-title"> Talk To Our Export</h2>
+                <p class="app-caption">Lorem ipsum dolor, sit amet consectetur.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="talk__caption1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore nobis similique
+                            sunt harum. Voluptates, fuga reprehenderit. Impedit, deleniti sequi?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore nobis similique
+                            sunt harum. Voluptates, fuga reprehenderit. Impedit, deleniti sequi?
+                        </p>
+                        <p class="talk__caption2">
+                            Lonsectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore
+                            nobis similique
+                            Impe
+                        </p>
+                        <a href="#" class="app-btn">contact us</a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="talk__form-title">contact us</h3>
+                        <form class="talk__form">
+                            <input type="text" class="talk__form-input" placeholder="Your Full Name...">
+                            <input type="email" class="talk__form-input" placeholder="Your Email Address..">
+                            <input type="email" class="talk__form-input" placeholder="Your Company..">
+                            <select class="talk__form-input">
+                                <option>Australia</option>
+                                <option>Canada</option>
+                                <option>USA</option>
+                            </select>
+                            <textarea class="talk__form-input" placeholder="Write something.."
+                                style="height: 12rem; resize: none ;"></textarea>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h4 class="footer__title">resume</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">hello</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">heello</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">maryam</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">2000</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">may 28</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer__title">links</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">hello</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">hello</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer__title">follow us</h4>
+                    <div class="footer__social">
+
+                        <svg fill="#f3e4f2" class="footer__social-svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M25,8c9.389,0,17,7.611,17,17s-7.611,17-17,17S8,34.389,8,25S15.611,8,25,8z M30.864,31.93	c0.312-0.959,1.778-10.521,1.958-12.405c0.055-0.571-0.126-0.95-0.478-1.119c-0.427-0.205-1.06-0.103-1.794,0.162	c-1.007,0.363-13.876,5.827-14.62,6.144c-0.704,0.3-1.372,0.626-1.372,1.1c0,0.333,0.198,0.52,0.742,0.714	c0.566,0.202,1.992,0.634,2.834,0.866c0.811,0.224,1.734,0.03,2.251-0.292c0.548-0.341,6.878-4.576,7.332-4.947	c0.454-0.371,0.816,0.104,0.445,0.476c-0.371,0.371-4.715,4.588-5.289,5.172c-0.696,0.709-0.202,1.443,0.265,1.738	c0.533,0.336,4.365,2.906,4.943,3.319c0.578,0.412,1.162,0.599,1.699,0.599C30.316,33.456,30.597,32.749,30.864,31.93z" />
+                        </svg>
+                        <svg fill="#f3e4f2" class="footer__social-svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M25,8c9.389,0,17,7.611,17,17s-7.611,17-17,17S8,34.389,8,25S15.611,8,25,8z M30.864,31.93	c0.312-0.959,1.778-10.521,1.958-12.405c0.055-0.571-0.126-0.95-0.478-1.119c-0.427-0.205-1.06-0.103-1.794,0.162	c-1.007,0.363-13.876,5.827-14.62,6.144c-0.704,0.3-1.372,0.626-1.372,1.1c0,0.333,0.198,0.52,0.742,0.714	c0.566,0.202,1.992,0.634,2.834,0.866c0.811,0.224,1.734,0.03,2.251-0.292c0.548-0.341,6.878-4.576,7.332-4.947	c0.454-0.371,0.816,0.104,0.445,0.476c-0.371,0.371-4.715,4.588-5.289,5.172c-0.696,0.709-0.202,1.443,0.265,1.738	c0.533,0.336,4.365,2.906,4.943,3.319c0.578,0.412,1.162,0.599,1.699,0.599C30.316,33.456,30.597,32.749,30.864,31.93z" />
+                        </svg>
+                        <svg fill="#f3e4f2" class="footer__social-svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M25,8c9.389,0,17,7.611,17,17s-7.611,17-17,17S8,34.389,8,25S15.611,8,25,8z M30.864,31.93	c0.312-0.959,1.778-10.521,1.958-12.405c0.055-0.571-0.126-0.95-0.478-1.119c-0.427-0.205-1.06-0.103-1.794,0.162	c-1.007,0.363-13.876,5.827-14.62,6.144c-0.704,0.3-1.372,0.626-1.372,1.1c0,0.333,0.198,0.52,0.742,0.714	c0.566,0.202,1.992,0.634,2.834,0.866c0.811,0.224,1.734,0.03,2.251-0.292c0.548-0.341,6.878-4.576,7.332-4.947	c0.454-0.371,0.816,0.104,0.445,0.476c-0.371,0.371-4.715,4.588-5.289,5.172c-0.696,0.709-0.202,1.443,0.265,1.738	c0.533,0.336,4.365,2.906,4.943,3.319c0.578,0.412,1.162,0.599,1.699,0.599C30.316,33.456,30.597,32.749,30.864,31.93z" />
+                        </svg>
+                        <svg fill="#f3e4f2" class="footer__social-svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M25,8c9.389,0,17,7.611,17,17s-7.611,17-17,17S8,34.389,8,25S15.611,8,25,8z M30.864,31.93	c0.312-0.959,1.778-10.521,1.958-12.405c0.055-0.571-0.126-0.95-0.478-1.119c-0.427-0.205-1.06-0.103-1.794,0.162	c-1.007,0.363-13.876,5.827-14.62,6.144c-0.704,0.3-1.372,0.626-1.372,1.1c0,0.333,0.198,0.52,0.742,0.714	c0.566,0.202,1.992,0.634,2.834,0.866c0.811,0.224,1.734,0.03,2.251-0.292c0.548-0.341,6.878-4.576,7.332-4.947	c0.454-0.371,0.816,0.104,0.445,0.476c-0.371,0.371-4.715,4.588-5.289,5.172c-0.696,0.709-0.202,1.443,0.265,1.738	c0.533,0.336,4.365,2.906,4.943,3.319c0.578,0.412,1.162,0.599,1.699,0.599C30.316,33.456,30.597,32.749,30.864,31.93z" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
